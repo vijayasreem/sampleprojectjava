@@ -8,6 +8,10 @@ public class DocumentVerificationApp {
     private boolean isPaymentApproved;
     private String vendorName;
     private double paymentAmount;
+    private double annualIncome;
+    private int creditScore;
+    private double vehicleAssessmentValue;
+    private double disbursedAmount;
 
     public DocumentVerificationApp() {
         this.greetingMessage = "Welcome to the Document Verification App!";
@@ -19,6 +23,10 @@ public class DocumentVerificationApp {
         this.isPaymentApproved = false;
         this.vendorName = "";
         this.paymentAmount = 0.0;
+        this.annualIncome = 0.0;
+        this.creditScore = 0;
+        this.vehicleAssessmentValue = 0.0;
+        this.disbursedAmount = 0.0;
     }
 
     public String getGreetingMessage() {
